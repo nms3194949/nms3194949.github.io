@@ -11,6 +11,7 @@
 
 ## Optional
 
-- [配息與配置試算工具](https://nms3194949.github.io/MOMO_FinSphere/)
+- [工具區](https://nms3194949.github.io/MOMO_FinSphere/): 配息現金流試算、景氣儀表板、季節性分析、基金與 ETF 數據工具（說明見 https://nms3194949.github.io/MOMO_FinSphere/llms.txt）
+- [配息現金流試算](https://nms3194949.github.io/MOMO_FinSphere/dividend-calculator.html): 輸入本金、配息率與年化總報酬假設（上限 6%），看每月配息與淨值變化
 - [Instagram](https://www.instagram.com/momo_82786/)
 - [Threads](https://www.threads.net/@momo_82786)

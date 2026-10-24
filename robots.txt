@@ -32,3 +32,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://nms3194949.github.io/momo-blog/sitemap-index.xml
+Sitemap: https://nms3194949.github.io/MOMO_FinSphere/sitemap.xml
