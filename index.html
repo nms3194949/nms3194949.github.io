@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MOMO雙贏策略｜資產配置 × 配息現金流 × 市場判讀</title>
+  <meta name="description" content="MOMO雙贏策略：保單基金規劃與資產配置教育。用白話把基金、配息與配置講清楚，收錄文章與試算工具。" />
+  <link rel="canonical" href="https://nms3194949.github.io/" />
+  <meta name="theme-color" content="#f6f1e7" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="MOMO雙贏策略" />
+  <meta property="og:locale" content="zh_TW" />
+  <meta property="og:title" content="MOMO雙贏策略" />
+  <meta property="og:description" content="保單基金規劃與資產配置教育。用白話把基金、配息與配置講清楚。" />
+  <meta property="og:url" content="https://nms3194949.github.io/" />
+  <meta property="og:image" content="https://nms3194949.github.io/og-default.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- 網站名稱：Google 以網域根目錄的 WebSite 資料決定搜尋結果最上方顯示的名稱 -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://nms3194949.github.io/#website",
+    "name": "MOMO雙贏策略",
+    "alternateName": ["MOMO 雙贏策略", "MOMO"],
+    "url": "https://nms3194949.github.io/",
+    "inLanguage": "zh-Hant-TW",
+    "publisher": { "@id": "https://nms3194949.github.io/momo-blog/about/#person" }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "https://nms3194949.github.io/momo-blog/about/#person",
+    "name": "MOMO（余明哲）",
+    "alternateName": ["MOMO", "余明哲", "明哲MOMO"],
+    "jobTitle": "保單基金規劃・資產配置教育",
+    "url": "https://nms3194949.github.io/momo-blog/about/",
+    "sameAs": [
+      "https://www.instagram.com/momo_82786/",
+      "https://www.threads.net/@momo_82786"
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600;800&display=swap" />
+  <style>
+    :root {
+      --bg: #f6f1e7; --surface: #fffdf8; --ink: #0c152a; --ink-2: #44506a; --muted: #7a8296;
+      --line: #e4dccb; --gold: #a88a3d; --gold-soft: #d2c696; --gold-bg: #f1e8cf; --line-green: #06c755;
+      --serif: 'Noto Serif TC', 'Songti TC', serif;
+      --sans: -apple-system, BlinkMacSystemFont, 'PingFang TC', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--sans); font-size: 17px; line-height: 1.8; letter-spacing: .02em; }
+    a { color: inherit; }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 0 20px; }
+    header { border-bottom: 1px solid var(--line); }
+    .brand { display: flex; align-items: center; gap: 10px; height: 60px; font-weight: 800; text-decoration: none; }
+    .mark { width: 30px; height: 30px; border-radius: 8px; background: var(--ink); color: var(--gold-soft); display: grid; place-items: center; font-family: var(--serif); }
+    .hero { padding: 64px 0 36px; }
+    .eyebrow { color: var(--gold); font-weight: 700; font-size: 14px; letter-spacing: .12em; margin: 0 0 12px; }
+    h1 { font-family: var(--serif); font-weight: 800; font-size: clamp(32px, 7vw, 46px); line-height: 1.35; margin: 0 0 18px; }
+    .lead { color: var(--ink-2); margin: 0; }
+    .cards { display: grid; gap: 14px; margin: 8px 0 40px; }
+    .card { display: block; padding: 22px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; text-decoration: none; transition: transform .15s, border-color .15s; }
+    .card:hover { transform: translateY(-2px); border-color: var(--gold-soft); }
+    .card .tag { color: var(--gold); font-size: 13px; font-weight: 700; letter-spacing: .1em; }
+    .card h2 { font-family: var(--serif); font-size: 22px; margin: 4px 0 6px; }
+    .card p { margin: 0; color: var(--ink-2); font-size: 15px; }
+    .card .go { display: inline-block; margin-top: 10px; color: var(--gold); font-weight: 700; font-size: 15px; }
+    .follow { text-align: center; padding: 28px 22px; background: var(--surface); border: 1.5px solid var(--gold-soft); border-radius: 14px; }
+    .follow h2 { font-family: var(--serif); font-size: 22px; margin: 0 0 6px; }
+    .follow p { color: var(--ink-2); font-size: 15px; margin: 0 0 16px; }
+    .btns { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+    .btn { display: inline-flex; padding: 12px 22px; border-radius: 999px; font-weight: 700; font-size: 15px; text-decoration: none; border: 1.5px solid transparent; }
+    .btn-line { background: var(--line-green); color: #fff; }
+    .btn-ghost { border-color: var(--ink); }
+    footer { margin-top: 56px; padding: 28px 0 40px; border-top: 1px solid var(--line); font-size: 13px; color: var(--muted); line-height: 1.8; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <a class="brand" href="/"><span class="mark">M</span>MOMO雙贏策略</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <p class="eyebrow">資產配置 × 配息現金流 × 市場判讀</p>
+      <h1>市場無法預測，<br />但資產可以配置。</h1>
+      <p class="lead">我是 MOMO（余明哲），專注保單基金規劃與資產配置教育。用白話把基金、配息與配置講清楚。</p>
+    </section>
+
+    <section class="cards">
+      <a class="card" href="/momo-blog/">
+        <span class="tag">文章</span>
+        <h2>MOMO雙贏策略｜配置筆記</h2>
+        <p>IG 圖卡的完整文字版：配息基金觀念、資產分工、市場判讀，附試算與常見問題。</p>
+        <span class="go">閱讀文章 →</span>
+      </a>
+      <a class="card" href="/MOMO_FinSphere/">
+        <span class="tag">工具</span>
+        <h2>配息與配置試算工具</h2>
+        <p>月配息試算、季節性分析等互動工具，自己輸入數字，看懂現金流。</p>
+        <span class="go">使用工具 →</span>
+      </a>
+    </section>
+
+    <section class="follow">
+      <h2>加入 MOMO 官方 LINE</h2>
+      <p>市場出現重要變化時，我會在 LINE 第一時間整理重點給你。</p>
+      <div class="btns">
+        <a class="btn btn-line" href="https://lin.ee/sdrEuGA?utm_source=website&amp;utm_medium=referral&amp;utm_campaign=root&amp;utm_content=cta" target="_blank" rel="noopener">加入官方 LINE</a>
+        <a class="btn btn-ghost" href="https://www.instagram.com/momo_82786/?utm_source=website&amp;utm_medium=referral&amp;utm_campaign=root&amp;utm_content=cta" target="_blank" rel="noopener">追蹤 IG</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p><strong>免責聲明｜</strong>本網站內容僅供教育與資訊分享，不構成任何投資建議或商品推介。基金與投資型保單之投資風險由要保人自行承擔，過去績效不代表未來表現，配息率不代表報酬率，且配息可能由本金支出。</p>
+      <p>© 2026 MOMO雙贏策略</p>
+    </div>
+  </footer>
+</body>
+</html>
