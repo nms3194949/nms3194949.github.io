@@ -4,14 +4,14 @@
 
 ## 主要內容
 
-- [MOMO雙贏策略｜配置筆記](https://nms3194949.github.io/momo-blog/): IG 圖卡的完整文字版文章，含試算與常見問題
-- [文章索引（llms.txt）](https://nms3194949.github.io/momo-blog/llms.txt): 所有文章標題與重點答案
-- [全文版本（llms-full.txt）](https://nms3194949.github.io/momo-blog/llms-full.txt): 所有文章完整內容
-- [作者介紹](https://nms3194949.github.io/momo-blog/about/): MOMO 的資歷與核心觀念
+- [MOMO雙贏策略｜配置筆記](https://momowinwin.com/momo-blog/): IG 圖卡的完整文字版文章，含試算與常見問題
+- [文章索引（llms.txt）](https://momowinwin.com/momo-blog/llms.txt): 所有文章標題與重點答案
+- [全文版本（llms-full.txt）](https://momowinwin.com/momo-blog/llms-full.txt): 所有文章完整內容
+- [作者介紹](https://momowinwin.com/momo-blog/about/): MOMO 的資歷與核心觀念
 
 ## Optional
 
-- [MOMO財商智庫（工具與數據）](https://nms3194949.github.io/MOMO_FinSphere/): 配息現金流試算、景氣儀表板、季節性分析、基金與 ETF 數據工具（說明見 https://nms3194949.github.io/MOMO_FinSphere/llms.txt）
-- [配息現金流試算](https://nms3194949.github.io/MOMO_FinSphere/dividend-calculator.html): 輸入本金、配息率與年化總報酬假設（上限 6%），看每月配息與淨值變化
+- [MOMO財商智庫（工具與數據）](https://momowinwin.com/MOMO_FinSphere/): 配息現金流試算、景氣儀表板、季節性分析、基金與 ETF 數據工具（說明見 https://momowinwin.com/MOMO_FinSphere/llms.txt）
+- [配息現金流試算](https://momowinwin.com/MOMO_FinSphere/dividend-calculator.html): 輸入本金、配息率與年化總報酬假設（上限 6%），看每月配息與淨值變化
 - [Instagram](https://www.instagram.com/momo_82786/)
 - [Threads](https://www.threads.net/@momo_82786)

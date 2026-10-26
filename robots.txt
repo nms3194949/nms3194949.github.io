@@ -31,5 +31,6 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://nms3194949.github.io/momo-blog/sitemap-index.xml
-Sitemap: https://nms3194949.github.io/MOMO_FinSphere/sitemap.xml
+Sitemap: https://momowinwin.com/sitemap.xml
+Sitemap: https://momowinwin.com/momo-blog/sitemap-index.xml
+Sitemap: https://momowinwin.com/MOMO_FinSphere/sitemap.xml
