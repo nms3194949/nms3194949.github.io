@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex,nofollow" />
+  <title>加入 MOMO 官方 LINE</title>
+  <link rel="icon" href="/favicon.ico" sizes="48x48" />
+  <!-- 沒有 JavaScript 時的備援：直接轉 -->
+  <noscript><meta http-equiv="refresh" content="0; url=https://lin.ee/sdrEuGA" /></noscript>
+  <style>
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #f6f1e7; color: #0c152a; font-family: -apple-system, BlinkMacSystemFont, 'PingFang TC', 'Noto Sans TC', sans-serif; text-align: center; padding: 24px; }
+    img { width: 72px; height: 72px; border-radius: 50%; }
+    h1 { font-size: 20px; margin: 14px 0 6px; }
+    p { color: #7a8296; margin: 0 0 20px; font-size: 15px; }
+    a { display: inline-block; padding: 12px 26px; border-radius: 999px; background: #06c755; color: #fff; font-weight: 700; text-decoration: none; }
+  </style>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VEDLJKB232"></script>
+  <script>
+    (function () {
+      var DEST = 'https://lin.ee/sdrEuGA';
+      // 來源：momowinwin.com/line?s=ig（IG 簡介）、?s=threads、?s=vocus（方格子）…沒填就記為 direct
+      var m = location.search.match(/[?&](?:s|src|utm_source)=([^&#]+)/);
+      var src = m ? decodeURIComponent(m[1]).slice(0, 40) : 'direct';
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-VEDLJKB232', { send_page_view: true });
+      var gone = false;
+      function go() { if (!gone) { gone = true; location.replace(DEST); } }
+      gtag('event', 'line_redirect', { link_source: src, event_callback: go, event_timeout: 1200 });
+      setTimeout(go, 1500); // GA 被擋或太慢，也一定會轉過去
+    })();
+  </script>
+</head>
+<body>
+  <div>
+    <img src="/icon-192.png" alt="" width="72" height="72" />
+    <h1>正在前往 MOMO 官方 LINE…</h1>
+    <p>如果沒有自動開啟，請點下面的按鈕</p>
+    <a href="https://lin.ee/sdrEuGA">加入官方 LINE</a>
+  </div>
+</body>
+</html>
